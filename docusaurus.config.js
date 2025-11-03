@@ -23,12 +23,14 @@ const config = {
   url: 'https://soratayang.github.io',
   // Set the /<baseUrl>/ pathname under which your site is served
   // For GitHub pages deployment, it is often '/<projectName>/'
-  baseUrl: '/manual/',
+  baseUrl: '/',
 
   // GitHub pages deployment config.
   // If you aren't using GitHub pages, you don't need these.
   organizationName: 'SorataYang', // Usually your GitHub org/user name.
-  projectName: 'manual', // Usually your repo name.
+  projectName: 'saratayang.github.io', // Usually your repo name.
+  deploymentBranch: 'main', // 根仓库 Pages 默认用 main
+  trailingSlash: false,     // 更好体验
 
   onBrokenLinks: 'throw',
 
